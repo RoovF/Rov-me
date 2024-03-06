@@ -1,0 +1,98 @@
+
+header img{
+    border-radius: 50%;
+    border-style: groove;
+    border-width: 10px;
+    border-color: #Ecae4b;
+}
+
+
+div.MyDiv{
+    content: "";
+    clear: both;
+    display: table;
+    
+    margin-top: 70px;
+    margin-right: 200px; 
+    margin-bottom: 100px;
+    margin-left: 200px;
+
+    color: white;
+    border-style: none;
+    border-radius:5cqh;
+}
+
+div.AboutMe{
+    color: white;
+    width:100%;
+    overflow:auto;
+    display: flex;
+
+
+    margin-top: 20px;
+    margin-right: 200px; 
+    margin-bottom: 20px;
+    margin-left: 200px;
+
+
+}
+
+        
+div.AboutMe div {
+    width:80%;  
+    float:center;
+    display: flex;
+
+}
+  
+div.aesthetics {
+    display: flex;
+
+}
+
+
+div.Contact{
+    margin-top: 70px;
+    margin-right: 200px; 
+    margin-bottom: 100px;
+    margin-left: 200px;
+
+    display: flex;
+    align-items: center;
+    
+    background-color: #Ecae4b;
+    width: 70%;
+    border-radius: 12cqmin;
+    font-size: 25px
+}
+
+div.Contact li{
+    margin-left: 100px;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+a::before{
+    color: black;
+    text-decoration: none;
+}
+
+
+div.Contact img{
+    list-style: none;
+    margin-right: 10px;
+}
+
+
+body{
+    background-color: #141d26;
+    font-family: cursive;
+}
+
+.end{
+    text-align: center;
+
+}
